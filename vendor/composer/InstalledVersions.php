@@ -25,24 +25,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => '2168efa1b8683e840f4d1fcc695a6f9e9d753513',
+    'reference' => '5ff4d82719ac33bee8f218c06730d1c66605d3f8',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => '2168efa1b8683e840f4d1fcc695a6f9e9d753513',
+      'reference' => '5ff4d82719ac33bee8f218c06730d1c66605d3f8',
     ),
     'symfony/polyfill-ctype' => 
     array (

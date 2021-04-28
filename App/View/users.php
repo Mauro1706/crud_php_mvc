@@ -8,7 +8,7 @@
             <th>ID</th>
             <th>NOME</th>
             <th>EMAIL</th>
-            <th><a class="btn btn-primary" href="http://localhost/mauro_crud/?metodo=update&pagina=Users">New</a></th>
+            <th><a class="btn btn-primary" href="http://localhost/crud_php_mvc/?metodo=update&pagina=Users">New</a></th>
         </tr>
         </thead>
         <tbody>
@@ -18,11 +18,11 @@
             <td>{{ user.name }}</td>
             <td>{{ user.email }}</td>
             <td class="text-center">
-                <a class="btn btn-warning" href="http://localhost/mauro_crud/?metodo=update&pagina=Users&id={{user.id}}">Update</a>
+                <a class="btn btn-warning" href="http://localhost/crud_php_mvc/?metodo=update&pagina=Users&id={{user.id}}">Update</a>
                 <a class="btn btn-danger"
-                   href="http://localhost/mauro_crud/?metodo=delete&pagina=Users&id={{user.id}}">Delete</a>
+                   href="http://localhost/crud_php_mvc/?metodo=delete&pagina=Users&id={{user.id}}">Delete</a>
             </td>
-        </tr>
+        </tr>s
         {% endfor %}
         </tbody>
     </table>

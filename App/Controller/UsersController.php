@@ -13,6 +13,7 @@
 
             $parameters = array();
             $parameters['users'] = $objUsers;
+            $parameters['url'] = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
 			$conteudo = $template->render($parameters);
 			echo $conteudo;
@@ -33,6 +34,7 @@
             $objUsers = $users->selecionaPorId($paramId);
 
             $parametros = array();
+            $parameters['url'] = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
             $parametros['id'] = "";
             $parametros['name'] = "";
             $parametros['email'] = "";

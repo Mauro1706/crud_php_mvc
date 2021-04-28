@@ -18,7 +18,7 @@
         <div class="col-sm-12 text-center">
             <input type="hidden" name="id" value=""/>
             <button type="submit" class="btn btn-primary">Gravar</button>
-            <a class="btn btn-danger" href="http://localhost/mauro_crud/?metodo=index&pagina=Users">Back</a>
+            <a class="btn btn-danger" href="http://localhost/crud_php_mvc/?metodo=index&pagina=Users">Back</a>
         </div>
     </form>
 </div>
