@@ -22,7 +22,7 @@
                 <a class="btn btn-danger"
                    href="http://localhost/crud_php_mvc/?metodo=delete&pagina=Users&id={{user.id}}">Delete</a>
             </td>
-        </tr>s
+        </tr>
         {% endfor %}
         </tbody>
     </table>
